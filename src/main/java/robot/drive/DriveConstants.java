@@ -32,8 +32,6 @@ public class DriveConstants {
   }
 
   public static final double TRACK_WIDTH = 0.7112; // Meters
-  public static final double WHEEL_RADIUS = 0.08; //Meters
-  public static final double GEARING = 8.0;
   public static final double MOI = 7.5;
   public static final double DRIVE_MASS = 60.0; //kg
   public static final Matrix<N7, N1> STD_DEVS = VecBuilder.fill(0, 0, 0, 0, 0, 0, 0);
